@@ -16,6 +16,14 @@ body {
     text-align: center;
 }
 
+.text {
+    text-align: center;
+}
+
+.bnt {
+    text-align: center;
+}
+
 .donatebtn {
     padding: 13px;
     background: #f95353;
@@ -25,4 +33,100 @@ body {
     border-radius: 5px;
     font-size: 15px;
 
+}
+
+.details {
+    padding-top: 40px;
+}
+
+.taka {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.two {
+    background: #953553;
+    border: 2px solid #f95353;
+    padding: 14px;
+    color: #f95353;
+    padding-top: 22px;
+    padding-bottom: 23px;
+}
+
+.otheramount,
+.taka {
+    color: grey;
+    text-align: center;
+}
+
+hr {
+    width: 600px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text Today {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.donate Today {
+    margin-top: 50px;
+
+}
+
+.frame {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.oneItem {
+    display: inline-block;
+    width: 302px;
+    padding: 27px;
+    background-color: #d1b2bc;
+    border-radius: 4px;
+}
+
+.summary {
+    color: white;
+}
+
+.twoItem {
+    display: inline-block;
+    width: 302px;
+    padding: 27px;
+    background-color: #f7d2dd;
+    border-radius: 4px;
+}
+
+.threeItem {
+    display: inline-block;
+    width: 302px;
+    padding: 27px;
+    background-color: rgb(151, 181, 207);
+    border-radius: 4px;
+}
+
+footer {
+    background-color: rgb(44, 40, 40);
+    color: #ff6565;
+    padding: 20px;
+    text-align: center;
+}
+
+.left {
+    display: flex;
+}
+
+.oneItem:hover {
+    transform: scale(1.1);
+    /* transition: all 0.5s; */
 }
